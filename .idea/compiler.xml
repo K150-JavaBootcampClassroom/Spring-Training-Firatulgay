@@ -6,9 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-training-kodluyoruz" />
-        <module name="java-training-firatulgay" />
+        <module name="spring-training-kodluyoruz" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-training-kodluyoruz" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-training-kodluyoruz" options="-parameters" />
+    </option>
   </component>
 </project>
