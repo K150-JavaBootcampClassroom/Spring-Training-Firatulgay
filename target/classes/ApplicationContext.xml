@@ -4,17 +4,17 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <context:component-scan base-package="com.kodluyoruz.springegitim.dorduncuhafta.cmt.springCore"/>-->
+<!--    <context:component-scan base-package="com.kodluyoruz.springegitim.dorduncuhafta.cmtPazar.springCore"/>-->
 
-<!--    <bean id="dummy" class="com.kodluyoruz.springegitim.dorduncuhafta.cmt.springCore.Dummy">-->
+<!--    <bean id="dummy" class="com.kodluyoruz.springegitim.dorduncuhafta.cmtPazar.springCore.Dummy">-->
 <!--    </bean>-->
 
-<!--    <bean id="foo" class="com.kodluyoruz.springegitim.dorduncuhafta.cmt.springCore.Foo">-->
+<!--    <bean id="foo" class="com.kodluyoruz.springegitim.dorduncuhafta.cmtPazar.springCore.Foo">-->
 <!--        <property name="dummy" ref="dummy"></property>-->
-<!--&lt;!&ndash;        <constructor-arg type="com.kodluyoruz.springegitim.dorduncuhafta.cmt.springCore.Dummy" index="0" name="dummy" ref="dummy" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg type="com.kodluyoruz.springegitim.dorduncuhafta.cmtPazar.springCore.Dummy" index="0" name="dummy" ref="dummy" />&ndash;&gt;-->
 <!--    </bean>-->
 
-<!--    <bean id="bar" class="com.kodluyoruz.springegitim.dorduncuhafta.cmt.springCore.Bar">-->
+<!--    <bean id="bar" class="com.kodluyoruz.springegitim.dorduncuhafta.cmtPazar.springCore.Bar">-->
 <!--        <property name="foo" ref="foo"></property>-->
 <!--        <property name="dummy" ref="dummy"></property>-->
 <!--    </bean>-->

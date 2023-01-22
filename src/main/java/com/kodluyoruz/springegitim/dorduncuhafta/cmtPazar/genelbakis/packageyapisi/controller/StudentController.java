@@ -18,10 +18,10 @@ public class StudentController  {
     @Autowired
     StudenttService studentService;
 
-    @GetMapping(value = "/getStudentsList")
-    public List<StudentDto> getStudentList(){
-        return studentService.getStudenttList();
-    }
+//    @GetMapping(value = "/getStudentsList")
+//    public List<StudentDto> getStudentList(){
+//        return studentService.getStudenttList();
+//    }
 
     @PostMapping(value = "/saveStudent")
     public void saveStudent(@RequestBody Student student){
