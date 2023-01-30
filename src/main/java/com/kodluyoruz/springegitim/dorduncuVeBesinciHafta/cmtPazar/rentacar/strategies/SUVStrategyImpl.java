@@ -5,7 +5,7 @@ import com.kodluyoruz.springegitim.dorduncuVeBesinciHafta.cmtPazar.rentacar.mode
 import com.kodluyoruz.springegitim.dorduncuVeBesinciHafta.cmtPazar.rentacar.model.Customer;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("suvStrategyImpl")
 public class SUVStrategyImpl implements IRentStrategy {
 
     @Override
